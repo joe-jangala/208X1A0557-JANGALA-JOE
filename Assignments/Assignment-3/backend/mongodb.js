@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-mongoose.connect("mongodb+srv://joejangala12:Ramunava@cluster0.ekrnn9q.mongodb.net/crud")
+mongoose.connect("your_mongodb_key_here")
 
 const crudSchema = mongoose.Schema({
     name:String,
